@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	int num;
+	cout << "Введите число:";
+	cin >> num;
+	if (num == 0)
+		cout << "Число равно нулю";
+	else if (num < 0)
+		cout << "Число отрицательное";
+	else if (num > 0)
+		cout << "Число положительное";
+
+	return 0;
+}
