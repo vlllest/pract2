@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	setlocale(0, "");
+	int num;
+	cout << "Введите число:";
+	cin >> num;
+	if (num % 3 == 0 and num % 5 == 0)
+
+	cout << "Число кратно трем и пяти";
+	else cout << "Число не кратно трем и пяти";
+
+	return 0;
+}
